@@ -21,7 +21,7 @@ public class QAClickJet {
 	String selCur1;
 	WebDriverWait wait;
 	QAClickJetLandingPage landingpage;
-
+//checking comment
 	public QAClickJet(TestContextSetup testContextSetup) {
 		this.testContextSetup = testContextSetup;
 		this.landingpage = testContextSetup.pageObjectManager.getQAClickJetLandingPage();
