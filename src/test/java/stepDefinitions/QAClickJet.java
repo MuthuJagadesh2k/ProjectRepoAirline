@@ -22,6 +22,7 @@ public class QAClickJet {
 	WebDriverWait wait;
 	QAClickJetLandingPage landingpage;
 //checking comment
+	//checking second time
 	public QAClickJet(TestContextSetup testContextSetup) {
 		this.testContextSetup = testContextSetup;
 		this.landingpage = testContextSetup.pageObjectManager.getQAClickJetLandingPage();
